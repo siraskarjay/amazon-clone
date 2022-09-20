@@ -80,7 +80,7 @@ function Checkout() {
                 Subtotal ({items.length} {items.length > 1 ? "items" : "item"}):{" "}
                 {""}
                 <span className="font-bold">
-                  <Currency quantity={total} currency="USD" />
+                  <Currency quantity={total} currency="INR" />
                 </span>
               </h2>
 
